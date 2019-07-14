@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ExtensionManifest ExtensionBundleId="com.ovid" ExtensionBundleVersion="1.0.12" ExtensionBundleName="ovid" Version="8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ExtensionList>
+    <Extension Id="com.ovid.panel" Version="1.0.12" />
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <Host Name="ILST" Version="[23,99.9]" />
+      <Host Name="AEFT" Version="[16,99.9]" />
+      <Host Name="PHXS" Version="[20,99.9]" />
+      <Host Name="PPRO" Version="[23,99.9]" />
+      <Host Name="IDSN" Version="[14,99.9]" />
+      <Host Name="AUDT" Version="[12,99.9]" />
+    </HostList>
+    <LocaleList>
+      <Locale Code="All" />
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="8.0" />
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="com.ovid.panel">
+      <DispatchInfo>
+        <Resources>
+          <!-- <MainPath>./public/index-dev.html</MainPath> -->
+          <MainPath>./dist/index.html</MainPath>
+          <CEFCommandLine>
+            <Parameter>--enable-nodejs</Parameter>
+            <Parameter>--mixed-context</Parameter>
+          </CEFCommandLine>
+        </Resources>
+        <Lifecycle>
+          <AutoVisible>true</AutoVisible>
+        </Lifecycle>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>ovid</Menu>
+          <Geometry>
+            <Size>
+              <Height>400</Height>
+              <Width>280</Width>
+            </Size>
+            <MaxSize>
+              <Height>1000</Height>
+              <Width>1000</Width>
+            </MaxSize>
+            <MinSize>
+              <Height>300</Height>
+              <Width>260</Width>
+            </MinSize>
+          </Geometry>
+          <Icons>
+             <Icon Type="Normal">./src/assets/logo.png</Icon>
+          </Icons>
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>

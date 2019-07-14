@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionList>
+    <Extension Id="com.ovid.panel">
+        <HostList>
+            <Host Name="ILST" Port="9912" />
+            <Host Name="AEFT" Port="9913" />
+            <Host Name="PHXS" Port="9914" />
+            <Host Name="PPRO" Port="9915" />
+            <Host Name="IDSN" Port="9916" />
+            <Host Name="AUDT" Port="9917" />
+        </HostList>
+    </Extension>
+</ExtensionList>
