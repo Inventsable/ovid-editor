@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<ExtensionManifest ExtensionBundleId="com.ovid" ExtensionBundleVersion="1.0.12" ExtensionBundleName="ovid" Version="8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ExtensionManifest ExtensionBundleId="com.ovid" ExtensionBundleVersion="1.0.13" ExtensionBundleName="ovid" Version="8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ExtensionList>
-    <Extension Id="com.ovid.panel" Version="1.0.12" />
+    <Extension Id="com.ovid.panel" Version="1.0.13" />
   </ExtensionList>
   <ExecutionEnvironment>
     <HostList>
@@ -23,8 +23,8 @@
     <Extension Id="com.ovid.panel">
       <DispatchInfo>
         <Resources>
-          <!-- <MainPath>./public/index-dev.html</MainPath> -->
-          <MainPath>./dist/index.html</MainPath>
+          <MainPath>./public/index-dev.html</MainPath>
+          <!-- <MainPath>./dist/index.html</MainPath> -->
           <CEFCommandLine>
             <Parameter>--enable-nodejs</Parameter>
             <Parameter>--mixed-context</Parameter>
