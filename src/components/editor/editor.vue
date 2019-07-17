@@ -484,7 +484,7 @@ export default {
 
 .current-line {
   border: 0px solid transparent !important;
-  background-color: var(--color-dark-accent);
+  background-color: var(--color-input);
 }
 
 /* Various colors used in syntax highlighting. Javascript doesn't pick up much unfortunately */

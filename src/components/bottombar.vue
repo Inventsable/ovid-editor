@@ -67,7 +67,7 @@ export default {
   user-select: none;
   width: calc(100vw - 2px);
   border: 0px;
-  background-color: var(--color-dark-accent);
+  background-color: var(--color-input);
 }
 
 .version-id {

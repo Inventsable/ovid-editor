@@ -155,17 +155,17 @@ export default {
       );
 
       this._tokenizeAdobe(sourcetext).then(result => {
-        console.log("Result:");
-        console.log(result);
+        // console.log("Result:");
+        // console.log(result);
         // Register a new language
         // monaco.languages.register({
         //   id: "adobeTypes"
         // });
 
         const model = self.editor.getModel();
-        console.log(model._tokens);
+        // console.log(model._tokens);
 
-        console.log(monaco.languages.getLanguages());
+        // console.log(monaco.languages.getLanguages());
         // Define a new theme that contains only rules that match this language
         // monaco.editor.defineTheme("myCoolTheme", {
         //   base: "vs",

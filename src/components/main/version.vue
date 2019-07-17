@@ -23,7 +23,7 @@ export default {
   bottom: 0px;
   right: 0px;
   padding: 0px 1rem 6px;
-  color: var(--color-text-default);
+  color: var(--color-default);
   letter-spacing: 0.5ch;
   opacity: 0.5;
 }

@@ -343,6 +343,6 @@ export default {
 }
 
 .active-tab {
-  background-color: var(--adobe-color-scrollbar-thumb-hover);
+  background-color: var(--color-scrollbar-thumb-hover);
 }
 </style>

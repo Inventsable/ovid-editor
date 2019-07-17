@@ -245,48 +245,22 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
-
 :root {
-  /* 
-      Below are CSS variables controlled by stylizer
-      By default hard-coded to Illustrator's dark theme but will ultimately be overridden on launch
-   */
-  --adobe-color-bg: #323232;
-  --adobe-color-dark: #1f1f1f;
-  --adobe-color-selection: #46a0f5;
-  --adobe-color-disabled: #525252;
-  --adobe-color-hover: rgba(255, 255, 225, 0.2);
-
-  --adobe-color-icon: #a1a1a1;
-  --adobe-color-border: #3e3e3e;
-  --adobe-color-text-active: #1b1b1b;
-  --adobe-color-text-default: #a1a1a1;
-  --adobe-color-text-disabled: #525252;
-  --adobe-color-input-focus: #fcfcfc;
-  --adobe-color-input-idle: #262626;
-  --adobe-color-input-text: rgba(255, 255, 255, 0.7);
-  --adobe-color-input-label: rgba(255, 255, 255, 0.6);
-
-  --adobe-color-scrollbar: #2a2a2a;
-  --adobe-color-scrollbar-thumb: #3e3e3e;
-  --adobe-color-scrollbar-thumb-hover: #525252;
-  --adobe-width-scrollbar: 14px;
-  --adobe-width-scrollbar-thumb: 14px;
-  --adobe-radius-scrollbar-thumb: 20px;
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
   --quad: cubic-bezier(0.48, 0.04, 0.52, 0.96);
   --quart: cubic-bezier(0.76, 0, 0.24, 1);
   --quint: cubic-bezier(0.84, 0, 0.16, 1);
 
-  background-color: var(--adobe-color-bg);
-  color: var(--adobe-color-text-default);
+  background-color: var(--color-bg);
+  color: var(--color-default);
   font-family: "Open Sans", sans-serif;
   font-size: 10px;
 }
 
 /* Override certain default features to be more inline with Adobe's host app style */
-.theme--dark.application {
+.theme--dark.application,
+.theme--light.application {
   background-color: var(--color-bg);
 }
 body::-webkit-scrollbar {
@@ -316,7 +290,7 @@ body::-webkit-scrollbar {
 
 /* Minor changes to vuetify's default component style */
 .theme--dark.v-list {
-  background-color: var(--color-input-idle);
+  background-color: var(--color-input);
 }
 .theme--dark.v-text-field--solo > .v-input__control > .v-input__slot {
   background-color: var(--color-scrollbar);

@@ -115,7 +115,7 @@ export default {
 }
 
 #console {
-  background-color: var(--color-dark-accent);
+  background-color: var(--color-input);
   width: 100%;
   margin-top: 6px;
   /* min-height: 100px; */
@@ -133,7 +133,7 @@ export default {
   min-width: 50px;
   display: flex;
   justify-content: center;
-  background-color: var(--color-dark-accent);
+  background-color: var(--color-input);
   align-items: flex-end;
   border-radius: 10px 10px 0px 0px;
 }
@@ -165,7 +165,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--adobe-color-scrollbar-thumb-hover);
+  color: var(--color-scrollbar-thumb-hover);
   width: 100%;
   height: 100%;
   user-select: none;

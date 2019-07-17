@@ -87,6 +87,6 @@ export default {
   z-index: 200;
   height: 4px;
   width: 100%;
-  background-color: var(--color-dark-accent);
+  background-color: var(--color-header);
 }
 </style>

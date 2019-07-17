@@ -71,8 +71,8 @@ svg {
 }
 
 .anim-main {
-  fill: var(--color-main);
-  stroke: var(--color-main);
+  fill: var(--color-default);
+  stroke: var(--color-default);
 }
 
 .anim-mask {

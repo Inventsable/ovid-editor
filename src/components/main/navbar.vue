@@ -64,7 +64,7 @@ export default {
 .darkToolbar,
 .theme--dark.v-system-bar,
 .theme--dark.v-toolbar {
-  background-color: var(--color-dark-accent);
+  background-color: var(--color-header);
   cursor: default;
   z-index: 202;
 }

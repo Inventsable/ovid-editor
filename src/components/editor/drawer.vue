@@ -101,6 +101,6 @@ export default {
 
 <style>
 .theme--dark.v-navigation-drawer {
-  background-color: var(--color-dark-accent);
+  background-color: var(--color-header);
 }
 </style>
