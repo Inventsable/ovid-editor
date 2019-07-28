@@ -12,7 +12,6 @@ Array.prototype.filter = function(callback) {
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
 //
 Array.prototype.find = function(callback) {
-  var filtered = [];
   for (var i = 0; i < this.length; i++)
     if (callback(this[i], i, this)) return this[i];
 };
