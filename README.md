@@ -2,7 +2,7 @@
 
 > _Ovid was a raunchy Roman poet_ 💌
 
-## ~~Try the browser demo here~~
+## [Try the browser demo here](https://ovid-editor.web.app/)
 
 Expressionist and VSCode inspired scripting panel with multi-tabs, persistent storage, typescript support, application DOM autocomplete, custom console, basic I/O features and more for Illustrator, Photoshop, After Effects, Premiere Pro, Indesign, and Audition.
 
